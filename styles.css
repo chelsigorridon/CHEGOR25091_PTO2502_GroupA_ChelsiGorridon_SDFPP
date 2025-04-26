@@ -1,0 +1,37 @@
+
+
+
+img{
+    display: block;
+    width: 144px;
+    height: 144px;
+    border-radius: 24px;
+}
+
+
+body {
+    background-color: #7A7A7A;
+}
+
+section {
+      background-color: #FFFF;
+      padding: 24px;
+      border-radius: 12px;
+      box-shadow: #dadada ;
+      
+}
+
+.name {
+    font-weight: bold;
+    font-size: 22px;
+    text-align: left;
+    margin-bottom: 16px;
+    color: #000;
+}
+
+p {
+   font-size: 16px; 
+   color: #4a4a4a;
+   line-height: 24px;
+   max-width: 520px;
+}
