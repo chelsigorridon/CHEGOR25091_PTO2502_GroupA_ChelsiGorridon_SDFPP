@@ -93,16 +93,45 @@ ul{
     font-family: sans-serif;
 }
 
+
+.skills-container {
+    display: flex;
+    flex-direction: row;
+    width: 706px;
+    height: 429px;
+    top: 411px;
+    left: 675px;
+    border-radius: 29.04px;
+    padding: 28px;
+    gap: 39px;
+}
+
 .skills{
+    display: flex;
+
+    width: 627.81px;
+    height: 279.53px;
+    gap: 19.36px;
     list-style-type: none;
-    text-align: left;
+    flex-wrap: wrap;
+    
+    
 }
 
 .bubble-skills-1, .bubble-skills-2 , .bubble-skills-3 , .bubble-skills-4 , .bubble-skills-5 , .bubble-skills-6 , .bubble-skills-7 {
     background-color: #ECF4F1;
-    padding: 8px 14px;
-    border-radius: 6px;
-    margin-bottom: 20px;
+    padding-top: 9.68px ;
+    padding-bottom: 9.68px;
+    padding-left: 24.2px ;
+    padding-right: 24.2px;
+    border-radius: 96.81px;
+    width: fit-content;
+    height: 36px;
+    text-align: center;
+    gap: 24px;
+    font-size: 24.2px;
+    line-height: 150%;
+
 
 }
 
@@ -115,7 +144,7 @@ ul{
 
 }
 
-.custom-line-1 , .cstom-line-2 {
+.custom-line-1 , .custom-line-2 {
     width: 180px;
 }
 
