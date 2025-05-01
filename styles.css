@@ -71,6 +71,7 @@ p {
    font-size: 22px; 
    color: #5C5C5C;
    font-family: sans-serif;
+   line-height: 151%;
    
 }
 
@@ -79,7 +80,7 @@ p {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 
@@ -371,6 +372,7 @@ h2{
 
 .section-4 {
     display: flex;
+    margin-left: 100px;
 
     
 
@@ -506,6 +508,7 @@ h4 {
 }
 
 .section-5 {
+    margin-left: 100px;
     
 }
 
@@ -516,7 +519,7 @@ h4 {
     grid-template-rows: 1fr 1fr 1fr;
     gap: 16px;
     width: 1316px;
-    height: max-content;
+    height: 640px;
     border-radius: 29.04px;
     background-color: #FFFFFF;
     padding-top: 31px;
@@ -529,12 +532,15 @@ h4 {
 }
 
 
-.info-ed , .info-ed-2 , .info-ed-3 , .info-ed-4 , .info-ed-5 , .info-ed-6{
+.info-ed , .info-ed-2 {
     display: inline-block;
-    
+    line-height: 200%;
     
 }
 
+.info-ed {
+    margin-right: 50px;
+}
 
 
 .job-1{
@@ -542,7 +548,11 @@ h4 {
     color: #FFFF;
     border-radius:29.04px ;
     width: 1260px;
-    height: max-content;
+    height: 145px;
+    padding-bottom: 19px;
+    padding-top: 19px ;
+    padding-left: 25px;
+    padding-right: 25px ;
 }
 
 .job-2 , .job-3 {
@@ -550,7 +560,11 @@ h4 {
     color: #000000;
     border-radius:29.04px ;
     width: 1260px;
-    height: max-content;
+    height: 145px;
+    padding-bottom: 19px;
+    padding-top: 19px ;
+    padding-left: 25px;
+    padding-right: 25px ;
     
 }
 
@@ -564,11 +578,22 @@ footer{
     width: 1322px;
     height: 158px;
     margin-top: 45px;
-    
+    gap: 4.85px;
 
 }
 
+.p-1 {
+    font-size: 24.2px;
+    font-weight:400;
+}
 
+footer {
+    margin-left: 100px;
+    font-family: sans-serif; 
+    text-align: left;
+    line-height: 100px;
+    padding:  10px 20px  10px;
+    }
 
 .footer-heading {
     width: 1263.92px;
