@@ -1,90 +1,173 @@
 
-
-
-
-img{
-    display: block;
-    width: 300px;
-    height: 300px;
-    border-radius: 29px;
+body{
+    background-image:  url(Images/image\ 1.png);
 }
 
 
-body {
-    background-color: #7A7A7A;
+.container {
+    
+    width: 1440px;
+    height: 3473px;
+    border: 1px;
+    top: -1089px;
+    left: 3841px;
+    
 }
 
-section {
-      width: max-content;
-      margin-bottom: 30px;
-      background-color: #FFFF;
-      padding: 24px;
-      border-radius: 12px;
-      box-shadow: #dadada ;
+
+    .section-1 {
+      display: flex;
+      width: auto ;
+      height: auto;
+      margin-top: 30px;
       
+    }
+
+
+    img {
+        width: 300.1px ;
+        height: 300.1px;
+        object-fit: cover;
+        border-radius: 29.04px;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .who-am-I {
+    width: 994.69px; 
+    height: min-content;
+    background-color: #FFFFFF;
+    border-radius: 29.4px;
+    padding-top: 59px;
+    padding-bottom: 59px ;
+    padding-left:69px ;
+    padding-right: 69px;
+    top: 63px ;
+    left: 386.1px;
+    
+
 }
 
-.name {
+h1 {
     width: 288px;
     height: 37px;
-    top: 59.74px;
-    left: 69.34px;
-    font-weight: bold;
     font-size: 36px;
-    text-align: left;
-    margin-bottom: 16px;
-    color: #000000;
+    line-height: 104%;
     font-family: sans-serif;
+    color: #000000;
+    
 }
 
 p {
    font-size: 22px; 
    color: #5C5C5C;
    line-height: 151%;
-   max-width: 856px;
-   height: 132px;
    font-family: sans-serif;
+   top: 108.36px;
+   left: 69.34px;
+}
+
+
+.section-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.proficiency-container{
+    width: 563.9px; 
+    height: min-content;
+    background-color: #FFFFFF;
+    border-radius: 29.4px;
+    padding-top: 41px;
+    padding-bottom: 41px ;
+    padding-left: 28px ;
+    padding-right: 28px;
+    font-family: sans-serif;
+    margin-top: 50px;
+    margin-left: 30px;
+   
 }
 
 .languages {
-    display: flexbox;
-    vertical-align: middle;
-    right: 20px;
-    top: 20px;
-    margin: auto;
-    list-style-type: none;
-    text-align: left;
-    font-size: 24.2px;
-    line-height: 104%;
-    gap: 15px;
-    font-family: sans-serif;
-    
-
+    width: 509.09px;
+    height:179.09px;
+    font-size: 24.02px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: space-evenly;
     
 }
 
-.custom-line-1 , .custom-line-2 , .custom-line-3 , .custom-line-4 {
+.bars {
+    width: 509.09px;
+    height:179.09px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: space-evenly;
+}
+
+
+.bars-lang {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.bar-1 {
     height: 26.6px;
+    width: 50%;
     border-radius: 7.26px;
     background-color: #4A8B70;
-   
-   
 }
 
+.bar-2{
+    height: 26.6px;
+    width: 50%;
+    border-radius: 7.26px;
+    background-color: #4A8B70;
+}
+
+.bar-3{
+    height: 26.6px;
+    width: 30%;
+    border-radius: 7.26px;
+    background-color: #4A8B70;
+}
+
+.bar-4{
+    height: 26.6px;
+    width: 30%;
+    border-radius: 7.26px;
+    background-color: #4A8B70;
+}
+
+
+
 h3{
-    font-weight: bold;
+    width: 509px;
+    height: 36px;
+    font-weight: 500px;
     font-size: 24.2px;
     color: #000000;
-    text-align: center;
     gap: 12px;
     font-family: sans-serif;
     line-height: 150%;
     text-align: left;
+   
 }
 
 h2{
     font-family: sans-serif;
     font-size: 33.88px;
+    width: 509px;
+    height: 51px;  
+    text-align: left;
     
     
 }
@@ -95,28 +178,33 @@ ul{
 
 
 .skills-container {
-    display: flex;
-    flex-direction: row;
-    width: 706px;
-    height: 429px;
-    top: 411px;
-    left: 675px;
-    border-radius: 29.04px;
-    padding: 28px;
-    gap: 39px;
+    width: 1000px; 
+    height: min-content;
+    background-color: #FFFFFF;
+    border-radius: 29.4px;
+    padding-top: 41px;
+    padding-bottom: 41px ;
+    padding-left: 28px ;
+    padding-right: 28px;
+    font-family: sans-serif;
+    margin-top: 50px;
+    margin-left: 30px;
+   
+    
 }
 
-.skills{
+.skills {
     display: flex;
+    flex-direction: column;
 
-    width: 627.81px;
+    width: 627.81;
     height: 279.53px;
     gap: 19.36px;
     list-style-type: none;
     flex-wrap: wrap;
     
-    
 }
+
 
 .bubble-skills-1, .bubble-skills-2 , .bubble-skills-3 , .bubble-skills-4 , .bubble-skills-5 , .bubble-skills-6 , .bubble-skills-7 {
     background-color: #ECF4F1;
@@ -125,60 +213,64 @@ ul{
     padding-left: 24.2px ;
     padding-right: 24.2px;
     border-radius: 96.81px;
-    width: fit-content;
-    height: 36px;
-    text-align: center;
+    width: auto;
+    height: 55px;
     gap: 24px;
+    text-align: center;
     font-size: 24.2px;
     line-height: 150%;
 
 
 }
 
-.who-am-I {
-    text-align: left;
-    border-radius: 30px;
-    padding: 59px 49px 49px 59px;
+
+.section-3{
+    width: 1318.08px;
+    height: min-content;
+
+}
+
+   .cards {
+    display: grid;
+    grid: 4 columns;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
     gap: 10px;
 
-
-}
-
-.custom-line-1 , .custom-line-2 {
-    width: 180px;
-}
-
-.custom-line-3 {
-    width: 150px;
-}
-
-.custom-line-4 {
-    width: 195px;
-}
+   }
 
 .project-container {
-    width: 1318.08px;
-    height: 755.09px;
+    width: max-content; 
+    height: min-content;
+    background-color: #FFFFFF;
+    border-radius: 29.4px;
     font-family: sans-serif;
-    display: flex;
-    flex-direction: row; 
-    justify-content: space-between;
-    gap: 35px;
+    margin-left: 30px;
+    margin-top: 45px;
+    padding-top: 43px ;
+    padding-bottom: 43px;
+    padding-left: 29px ;
+    padding-right: 29px;
     
     
 } 
 
-
+.Projects-heading {
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 136px;
+    height: 51px;
+    font-size: 33.88px;
+    font-family: sans-serif;
+    text-align: center;
+}
 
 .Project-1 {
     text-align: left;
-    flex-wrap: wrap;
     background-color:#4A8B70 ;
     border-radius:29.04px ;
     width: 280px;
     height: 581px;
-    top: 130.05px;
-    left: 33.54px;
     padding-top: 22px;
     padding-bottom: 22px;
     padding-left: 19px ;
@@ -189,13 +281,10 @@ ul{
 
 .Project-2 {
     text-align: left;
-    flex-wrap: wrap;
     background-color:#E7F0EC ;
     border-radius:29.04px ;
     width: 280px;
     height: 581px;
-    top: 130.05px;
-    left: 33.54px;
     padding-top: 22px;
     padding-bottom: 22px;
     padding-left: 19px ;
@@ -207,14 +296,10 @@ ul{
 
 .Project-3 {
     text-align: left;
-    align-content: space-between;
-    flex-wrap: wrap;
     background-color:#E7F0EC ;
     border-radius:29.04px ;
     width: 280px;
     height: 581px;
-    top: 130.05px;
-    left: 33.54px;
     padding-top: 22px;
     padding-bottom: 22px;
     padding-left: 19px ;
@@ -225,14 +310,10 @@ ul{
 
 .Project-4 {
     text-align: left;
-    align-content: space-between;
-    flex-wrap: wrap;
     background-color:#E7F0EC ;
     border-radius:29.04px ;
     width: 280px;
     height: 581px;
-    top: 130.05px;
-    left: 33.54px;
     padding-top: 22px;
     padding-bottom: 22px;
     padding-left: 19px ;
@@ -242,17 +323,309 @@ ul{
 
 .Project-5 {
     text-align: left;
-    align-content: space-between;
-    flex-wrap: wrap;
     background-color:#E7F0EC;
     border-radius:29.04px ;
     width: 240px;
     height: 360px;
-    top: 130.05px;
-    left: 33.54px;
     padding-top: 22px;
     padding-bottom: 22px;
     padding-left: 19px ;
     padding-right: 19px ;
     line-height: 150%;
 }
+
+.section-4 {
+    
+}
+
+.education-container {
+    font-family: sans-serif;
+    border-radius: 29.04px;
+    width: 994.69px;
+    height: 847.06px;
+    background-color: #FFFFFF;
+    border-radius: 29.4px;
+    padding: 29px;
+    margin-top: 45px;
+    
+}
+
+.block-1 , .block-2 {
+    
+}
+
+.edu-1 {
+    
+    background-color:#4A8B70 ;
+    border-radius:29.04px ;
+    width: 936.61px;
+    height: min-content;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    padding-left: 21px;
+    padding-right: 21px ;
+    color: #FFFF;
+    gap: 35px;
+    
+}
+
+.edu-2 {
+    background-color:#E7F0EC ;
+    border-radius:29.04px ;
+    width: 936.61px ;
+    height: min-content;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    padding-left: 21px;
+    padding-right: 21px ;
+    color: #000000;
+    gap: 35px;
+    
+}
+
+.edu-3 {
+    background-color: #E7F0EC;
+    border-radius:29.04px ;
+    width: 936.61px;
+    height: min-content;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    padding-left: 21px;
+    padding-right: 21px ;
+    color: #000000;
+    gap: 35px;
+    
+}
+
+
+
+.tools-container {
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    width: 300.1px;
+    height: min-content;
+    border-radius: 29.04px;
+
+}
+
+
+.tools-heading {
+ text-align: center;
+ margin: auto;
+ line-height: 150%;
+ margin-bottom: 30px;
+
+}
+
+.language-tool, .Design , .tools {
+    background-color: #000000;
+    border-radius: 142.79px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    width: 95.04px;
+    height: 26.68px;
+    font-size: 12.1px;
+    text-align: center;
+    padding-top: 4.84px ;
+    padding-bottom: 4.84px;
+    padding-left: 14.52px;
+    padding-right: 14.52px ;
+    gap: 24.2px;
+    margin: auto;
+}
+
+.HTML , .CSS , .Tailwind , .figma, .google , .github , .git {
+   
+    width: 41.14px;
+    height: 41.14px;
+    object-fit: cover;
+    margin-left: 40px;
+   
+}
+
+.image-container-3 , .image-container-2 , .image-container-1 {
+    background-color: #E7F0EC;
+    border-radius: 14.52px;
+    width: 183.93px;
+    height: 152px;
+    margin: auto;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+.work-experience {
+    gap: 10px;
+    width: 1316px;
+    height: 640px;
+    border-radius: 29.04px;
+    background-color: #FFFFFF;
+    padding-top: 31px;
+    padding-bottom: 31px;
+    padding-left: 27px;
+    padding-right: 27px ;
+    font-family: sans-serif;
+}
+
+
+.job-1 {
+    display: flex;
+    background-color:#4A8B70 ;
+    color: #FFFF;
+    border-radius:29.04px ;
+}
+
+.job-2 , .job-3 {
+    background-color: #E7F0EC;
+    color: #000000;
+    border-radius:29.04px ;
+    
+}
+
+
+
+
+footer{
+    background-color: #d76239;
+    color: #FFFF;
+    border-radius: 29.04px;
+    width: 1322px;
+    height: 158px;
+
+}
+
+.footer-heading {
+    width: 1263.92px;
+    height: 51px;
+    font-size: 33.88px;
+    font-family: sans-serif;
+    color: #000000;
+}
+
+  /*Media Query for Responsiveness on iphone*/ 
+
+  @media screen and (max-width: 667px) {
+    .container {
+      display: flex;
+      flex-direction: column; 
+      width: 104px;
+      height: 2468.px;
+      top: -1089px;
+      left: 5368px;
+    }
+  
+    img{
+        display: block;
+        width: 147.px;
+        height: 137px;
+        border-radius: 12px;
+        object-fit: cover;
+        overflow: hidden;
+        
+    }
+  
+    section {
+        display: flex;
+        flex-direction: column;
+        width: min-content
+        height: min-contentpx;
+        margin-bottom: 30px;
+        background-color: #FFFFFF;
+        padding: 24px;
+        border-radius: 12px;
+        box-shadow: #dadada ;
+    }
+  
+    .who-am-I {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: ;
+        width: 163px; 
+        height: 137px;
+        background-color: #FFFFFF;
+        border-radius: 29.4px;
+        top: 18px ;
+        left: 197px;
+        padding: 12px;
+    }
+  
+    .name {
+        width: 139px;
+        height: 17px;
+        font-size: 16px;
+        line-height: 104%;
+        font-family: sans-serif;
+        color: #000000;
+    }
+  
+    p {
+        font-weight: 400px;
+        width: 139px;
+        height: 75px;
+        font-size: 10px; 
+        color: #5C5C5C;
+        line-height: 151%;
+        font-family: sans-serif;
+        top: 108.36px;
+        left: 69.34px;
+    }
+
+    .proficiency-container{
+        width: 318px;
+        height: 177px;
+        padding: 12px;
+        border-radius: 12px;
+        gap: 16px;
+    }
+    
+
+    .languages {
+           width: 294px;
+           height: 74px;
+           gap: 17px;
+        }
+
+
+      }
+
+  /*Media Query for Responsiveness on ipads*/ 
+
+  @media screen and (min-width: 600px) and (max-width: 1024px) {
+    . {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-content: flex-start;
+      gap: 5px;
+      padding: 30px;
+    }
+  
+    . {
+      grid-column: span 3;
+      margin-right: 20px;
+      margin-left: 45px;
+    }
+  
+    . {
+      grid-column: span 1;
+    }
+  
+    . {
+      grid-column: span 2;
+    }
+  
+    . {
+      width: 30%;
+    }
+
+    .{
+      width: 15%;
+    }
+  
+    . {
+      grid-column: span 3;
+      margin-top: 40px;
+      margin-left: 19%;
+    }
+  }
