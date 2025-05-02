@@ -16,9 +16,7 @@ body{
 
 .container {
     width: 1440px;
-    height: 3473px;
-    
-    
+    height: 3473px;   
     
 }
 
@@ -52,6 +50,7 @@ body{
     padding-bottom: 59px ;
     padding-left:69px ;
     padding-right: 69px;
+    gap: 10px;
    
 
 
@@ -86,7 +85,7 @@ p {
 
 .proficiency-container{
     width: 563.9px; 
-    height: 428px;
+    height: 428.37px;
     background-color: #FFFFFF;
     border-radius: 29.4px;
     padding-top: 41px;
@@ -96,6 +95,7 @@ p {
     font-family: sans-serif;
     margin-top: 50px;
     margin-left: 30px;
+    gap: 10px;
     
     
    
@@ -103,7 +103,7 @@ p {
 
 .languages {
     width: 509.09px;
-    height: px;
+    height: auto;
     font-size: 24.02px;
     list-style: none;
     display: flex;
@@ -264,6 +264,7 @@ h2{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
     gap: 50px;
+    
    
 
    }
@@ -314,7 +315,7 @@ h2{
     color: #FFFFFF;
 }
 
-.Project-2 {
+.Project-2 , .Project-3 , .Project-4 , .Project-5 {
     text-align: left;
     background-color:#E7F0EC ;
     border-radius:29.04px ;
@@ -325,50 +326,12 @@ h2{
     padding-left: 19px ;
     padding-right: 19px ;
     line-height: 150%;
-    
-    
-}
-
-
-.Project-3 {
-    text-align: left;
-    background-color:#E7F0EC ;
-    border-radius:29.04px ;
-    width: 280px;
-    height: 581px;
-    padding-top: 22px;
-    padding-bottom: 22px;
-    padding-left: 19px ;
-    padding-right: 19px ;
-    line-height: 150%;
+  
     
 }
 
-.Project-4 {
-    text-align: left;
-    background-color:#E7F0EC ;
-    border-radius:29.04px ;
-    width: 280px;
-    height: 581px;
-    padding-top: 22px;
-    padding-bottom: 22px;
-    padding-left: 19px ;
-    padding-right: 19px ;
-    line-height: 150%;
-}
 
-.Project-5 {
-    text-align: left;
-    background-color:#E7F0EC;
-    border-radius:29.04px ;
-    width: 240px;
-    height: 360px;
-    padding-top: 22px;
-    padding-bottom: 22px;
-    padding-left: 19px ;
-    padding-right: 19px ;
-    line-height: 150%;
-}
+
 
 .section-4 {
     display: flex;
@@ -427,22 +390,27 @@ h2{
     
 }
 
-.inline-block-1 , .inline-block-2  {
-    display: inline-block;
+.inline-block-1 {
+    float: left;
     line-height: 200%;
+    margin-right: 70px;
 }
 
-.inline-block-1 {
-    margin-right: 100px;
-}
+
 
 .inline-block-2 {
-    
-}
+    display: flex;
+    justify-content: space-between;
+    line-height: 150%;
+    row-gap: 16px;
 
-h4 {
+    }
+
+
+
+ h4 {
     font-size: 24.2px;
-}
+   }
 
 
 
@@ -450,19 +418,21 @@ h4 {
     display: flex;
     flex-direction: column;
     width: 300.1px;
-    height: min-content;
+    height: 847.06px;
     border-radius: 29.04px;
     background-color: #FFFFFF;
     margin-top: 45px;
     margin-left: 45px;
+    
 
 }
 
 
-.tools-heading {
- text-align: center;
- line-height: 150%;
- margin-bottom: 30px;
+   .tools-heading {
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    line-height: 150%;
 
 }
 
@@ -481,29 +451,31 @@ h4 {
     padding-right: 14.52px ;
     gap: 24.2px;
     margin: auto;
-}
 
-.HTML , .CSS , .Tailwind , .figma, .google , .github , .git {
+    }
+
+.html , .css , .tailwind , .figma, .google , .github , .git {
     width: 41.14px;
     height: 41.14px;
-    object-fit: cover;
-    margin-left: 40px;
-    margin-bottom: 40px;
-    
-   
+    overflow: hidden; 
+    margin: auto;
+    margin-bottom: 30px;
+     
 }
 
 .image-container-3 , .image-container-2 , .image-container-1 {
     background-color: #E7F0EC;
     border-radius: 14.52px;
     width: 183.93px;
-    height: fit-content;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 38.71px ;
+    padding-bottom:38.71px ;
+    padding-right: 9.68px ;
+    padding-left: 9.68px ;
     margin: auto;
-    margin-bottom: 30px;
-    
-    
-    
-    
+
     
 }
 
@@ -515,7 +487,6 @@ h4 {
 
 .work-experience {
     display: grid;
-    grid: 3 rows;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 16px;
     width: 1316px;
@@ -532,13 +503,14 @@ h4 {
 }
 
 
-.info-ed , .info-ed-2 {
-    display: inline-block;
+    .info-ed-2 {
+    display: flex;
     line-height: 200%;
     
-}
+    }
 
 .info-ed {
+    float: left;
     margin-right: 50px;
 }
 
@@ -587,12 +559,13 @@ footer{
     font-weight:400;
 }
 
-footer {
+  footer {
     margin-left: 100px;
     font-family: sans-serif; 
     text-align: left;
     line-height: 100px;
     padding:  10px 20px  10px;
+
     }
 
 .footer-heading {
@@ -610,19 +583,17 @@ footer {
   @media screen and (max-width: 667px) {
     .container {
       width: 402px;
-      height: 2468.px;
+      height: 2468px;
       
-
     }
   
 
     img{
-        display: inline-block;
+    
         width: 147px;
-        height: auto;
+        height: 137px;
         border-radius: 12px;
-        object-fit: cover;
-        overflow: hidden;
+        
         
     }
     
@@ -638,16 +609,30 @@ footer {
         box-shadow: #dadada ;
         flex-wrap: wrap;
     }
+
+       .to-be-replaced {
+        visibility: hidden;
+        position: relative;
+    }
+
+    .to-be-replaced:after {
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: "As a driven and adaptable professional, I'm building a strong foundation in software development, focusing on programming languages and design patterns.";
+    }
   
     .who-am-I {
         display: flex;
         flex-direction: column;
         width: 163px; 
-        height: auto;
+        height: 137px;
         background-color: #FFFFFF;
-        border-radius: 29.4px;
+        border-radius: 12px;
         padding: 12px;
-    }
+        
+        }
   
     h1 {
         width: 139px;
@@ -656,6 +641,8 @@ footer {
         line-height: 104%;
         font-family: sans-serif;
         color: #000000;
+        margin-bottom: 2px;
+        
     }
   
     p {
@@ -671,8 +658,7 @@ footer {
 
      .section-2 {
         display: flex;
-        flex-direction: column;
-        
+        flex-direction: column;  
      }
 
 
@@ -694,7 +680,6 @@ footer {
         .skills {
             display: flex;
             flex-direction: column;
-        
             width: 318px;
             height: 177px;
             gap: 16px;
@@ -708,6 +693,7 @@ footer {
             height: 21px;
             line-height: 150%;
             font-size: 14px;
+            margin-top: 5px;
         }
 
         h3 {
@@ -715,13 +701,19 @@ footer {
             height: 15px;
             line-height: 150%;
             font-size: 12.11px;
+            margin-bottom: 15px;
             
         }
 
-        .language-tool , .tech-names {
+        .bars-lang {
+            text-align: center;
+        }
+
+         .tech-names {
             width: 54px;
             height: 10px;
             font-size: 10px;
+            margin-top: 5px;
         }
 
         .bar-1 {
@@ -762,7 +754,7 @@ footer {
             padding-right: 10px;
             border-radius: 40px;
             width: auto;
-            height: 15px;
+            height: 23px;
             text-align: center;
             font-size: 10px;
             line-height: 150%;
@@ -771,28 +763,41 @@ footer {
 
         .project-container {
             width: 319px; 
-            height: 632px;
+            height: auto;
             background-color: #FFFFFF;
             border-radius: 12px;
             font-family: sans-serif;
+            padding: 7px;
             
         }
 
 
         .Project-1 , .Project-2 , .Project-3 , .Project-4 , .Project-5 {
             width: 140px;
-            height: 267px;
+            height: auto;
             border-radius: 12.11px;
             padding: 9.69px;
             gap: 9.69px;
             font-size: 10px;
-        }
-
-        .cards {
             
         }
 
-        
+        .cards {
+           display: grid;
+           grid-template-columns: 1fr 1fr;
+           gap: 10px;
+
+        }
+
+        .Projects-heading {
+             width: 57px;
+             height: 21px;
+             font-size: 14px;
+             line-height: 150%;
+             text-align: left;
+             margin: 5px;
+
+        }
 
         .section-4 {
             display: flex;
@@ -803,18 +808,167 @@ footer {
             width: 319px;
             height: 461px;
             border-radius: 12px;
+            font-size: 8px;
+            gap: 10px;   
             
         }
 
         .edu-1 , .edu-2 , .edu-3 {
-            display: inline;
-            width: 295px;
+            
+            width: auto;
             height: auto;
             font-size: 8px;
-            float: right;
+            border-radius: 10px;
+            padding: 10px;
+            gap: 10px;
         
         }
 
+        h4 {
+            font-size: 10px;
+        }
+
+        .inline-block-1 {
+            float: left;
+            margin-right: 30px;
+        }
+
+        .inline-block-2 {
+            display: flex;
+        }
+
+        .tools-container {
+            width: 319px;
+            height: 163px;
+            border-radius: 12px;
+            background-color: #FFFFFF;
+            
+             
+  
+        }
+
+            .language-tool, .Design , .tools {
+                background-color: #000000;
+                border-radius: 59px;
+                color: #FFFFFF;
+                font-family: sans-serif;
+                width: 30px;
+                height: 11px;
+                font-size: 5px;
+                text-align: center;
+                padding-top: 2px ;
+                padding-bottom: 2px;
+                padding-left: 6px;
+                padding-right: 6px ;
+                line-height: 142%;
+            
+                }
+
+                .image-container-3 , .image-container-2 , .image-container-1 {
+                    background-color: #E7F0EC;
+                    border-radius: 6px;
+                    width: 76px;
+                    height: 104px;
+                    padding-top: 16px ;
+                    padding-right: 4px ;
+                    padding-left: 4px ;
+                    gap: 16px;
+    
+                    
+                }  
+
+                
+
+                .html , .css , .tailwind , .figma, .google , .github , .git {
+                    width: 17px;
+                    height: 17px;
+                    overflow: hidden; 
+                    
+                     
+                }
+
+                .work-experience {
+                    display: grid;
+                    grid-template-rows: 1fr 1fr 1fr;
+                    gap: 16px;
+                    width: 319px;
+                    height: 487px;
+                    border-radius: 12px;
+                    background-color: #f0f0f0;
+                    
+                   
+                }
+
+
+                .job-1{
+                    background-color:#4A8B70 ;
+                    color: #FFFF;
+                    border-radius: 10px ;
+                    width: 295px;
+                    height: 141px;
+                    padding: 18px;
+                    font-size: 8px;
+                }
+                
+                .job-2 , .job-3 {
+                    background-color: #E7F0EC;
+                    color: #000000;
+                    border-radius: 10px ;
+                    width: 295px;
+                    height: 141px;
+                    padding: 18px;
+                    font-size: 8px;
+                    
+                }
+
+                h4{
+                    font-size: 10px;
+                    line-height: 150%;
+                    margin-top: 10px;
+                }
+
+                footer {
+                    margin-left: 100px;
+                    font-family: sans-serif; 
+                    text-align: left;
+                    line-height: 100px;
+                    padding:  10px 20px  10px;
+                    background-color: #d76239;
+                    color: #FFFF;
+                    border-radius: 29.04px;
+                    width: 319px;
+                    height: 89px;
+                    margin-top: 45px;
+                    gap: 4.85px;
+                    
+                    }
+
+                    .footer-heading {
+                        width: 295px;
+                        height: 42px;
+                        font-size: 14px;
+                        font-family: sans-serif;
+                        color: #FFFFFF;
+                    }
+
+                      .p-1 {
+                        font-size: 10px;
+                      }
+
+                    .p-1 {
+                        visibility: hidden;
+                        position: relative;
+                    }
+                
+                    .p-1:after {
+                        visibility: visible;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        content: "chelsijaimegorridon@gmail.com | 083 295 7278 |";
+                    }
+                
+    
 
       }
 
