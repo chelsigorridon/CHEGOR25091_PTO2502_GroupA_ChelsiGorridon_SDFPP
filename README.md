@@ -1,8 +1,12 @@
 Project Name: Resume Project 
+
 Difficulty: Beginner–Intermediate
+
 Goal: Replicate a Figma design of a resume site as accurately as possible using HTML and CSS
 Tools Required: HTML5, CSS3, Git, GitHub
+
 Deployment: Not required — site must run locally in browser
+
 Submission Includes:
 
 A link to your GitHub repo
