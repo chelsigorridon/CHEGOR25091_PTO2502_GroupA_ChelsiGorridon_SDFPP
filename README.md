@@ -14,3 +14,5 @@ A screen recording of your presentation (5–10 minutes)
 A complete README (you’re reading it!)
 
 🎨Link to Figma Reference File: https://www.figma.com/design/fM2tutgIH0k1SrNir4MVe3/SDF-Resume-Project-STUDENT-REFERENCE-FILE?node-id=0-1&t=yGSXI1yv4AgjKBvA-1
+
+https://drive.google.com/file/d/1HhMlnqWyaEchQuLti6Wis0513zZ9rjkO/view?usp=drive_link
