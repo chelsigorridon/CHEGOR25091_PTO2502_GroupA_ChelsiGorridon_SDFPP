@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MY PORTFOLIO</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
     
 </head>
 
@@ -21,9 +23,11 @@
 
             <h1> Chelsi Gorridon </h1>
 
-        <p> As a driven and adaptable professional, I'm building a strong foundation in software development, focusing on programming languages and design patterns. 
-            I'm eager to apply my problem-solving skills, creativity, and collaborative spirit to drive innovation and deliver impactful solutions.</p>
-       
+            <p class="to-be-replaced"> As a driven and adaptable professional, I'm building a strong foundation in software development, focusing on programming languages and design patterns.
+                I'm eager to apply my problem-solving skills, creativity, and collaborative spirit to drive innovation and deliver impactful solutions.</p>
+           
+                
+
         </div> 
 
          </section>
@@ -36,7 +40,7 @@
 
          <div class="proficiency-container"> 
              
-            <h2>Profiency</h2>
+            <h2>Proficiency</h2>
 
             <h3> Beginner Intermediate Advance* </h3>   
 
@@ -44,19 +48,25 @@
 
              <div class="languages">
 
+                <ul class="tech-names">
                  <li> HTML </li>
                  <li> CSS </li>
                  <li> Tailwind </li>
                  <li> Github </li>
 
+                </ul>
+
              </div>
 
              <div class="bars">
 
+                <ul>
                 <li class="bar-1"> </li>    
                  <li class="bar-2"> </li>  
                  <li class="bar-3">  </li>   
                 <li class="bar-4">  </li>
+            </ul>
+
              </div>
 
              </div>
@@ -72,16 +82,18 @@
 
                 <h2> Skills </h2>
 
-            <ul class="skills">
-                <div class="bubble-skills-1"><li> Creative Thinking  </li></div>
-                <div class="bubble-skills-2"> <li> Attention to detail  </li></div>
-                <div class="bubble-skills-3"><li> Git and Version Control  </li></div>
-                <div class="bubble-skills-4"><li> Problem Solving  </li></div>
-                <div class="bubble-skills-5"><li> Team Work </li></div>
-                <div class="bubble-skills-6"> <li> VS Code </li></div>
-                <div class="bubble-skills-7"> <li> Wireframing </li></div>
+            <div class="skills">
+                <div class="bubble-skills"> Creative thinking </div>
+                <div class="bubble-skills"> Attention to detail </div>
+                <div class="bubble-skills"> Git and Version Control</div>
+                <div class="bubble-skills"> Problem Solving </div>
+                <div class="bubble-skills"> Team Work </div>
+                <div class="bubble-skills"> VS Code </div>
+                <div class="bubble-skills"> Wireframing </div>
 
-            </ul>
+            </div>
+ 
+
 
            </div>
 
@@ -97,9 +109,9 @@
             <div class="cards">
 
            <div class="Project-1"> 
-
-            <h3> 2025 </h3> <i class="fas fa-band-aid"> </i> 
-            <h3>CS Cat HTML Portfolio</h3>
+            <i class="fas fa-heart heart-icon"></i>
+            <h3 class="h3-project"> 2025 </h3> 
+            <h3 class="h3-project">Cats HTML Portfolio </h3>
              <div> <b>Brief:</b> This project was aimed at creating structured webpage and adding my own unique styling </div> <br>
              <div> <b>Technologies:</b> HTML & CSS </div> <br>
              <div> <b>Responsibilities:</b> Used semantic HTML and no inline styling for this design.</div>
@@ -108,9 +120,9 @@
            </div>
 
            <div class="Project-2"> 
-
-            <h3> 2025 </h3> <i class="fas fa-band-aid"> </i> 
-            <h3>CS Pets Instagram Profile</h3>
+            <i class="fas fa-heart heart-icon"></i>
+            <h3> 2025 </h3> 
+            <h3>Pets Instagram Profile</h3>
              <div><b> Brief:</b> For this Project I applied diffrent CSS layouts , styling and responsiveness to create a clean and enagaging instagram style profile page. </div> <br>
              <div> <b>Technologies:</b> HTML & CSS</div> <br>
              <div> <b>Responsibilities:</b> I applied CSS styling & used Flexbox/grid for the layout. I ensured that elements were interactive. </div> <br>
@@ -118,9 +130,9 @@
 
            </div>
 
-           <div class="Project-4"> 
-
-            <h3> 2025 </h3> <i class="fas fa-band-aid"> </i> 
+           <div class="Project-3"> 
+            <i class="fas fa-heart heart-icon-2"></i> 
+            <h3> 2025 </h3> 
             <h3>CS Footer</h3>
              <div> <b> Brief:</b> This project was all about creating a fully responsive footer.</div> <br>
              <div> <b> Technologies:</b>   HTML & CSS </div> <br>
@@ -131,9 +143,9 @@
            </div>
 
            <div class="Project-4"> 
-
-            <h3> 2025 </h3> <i class="fas fa-band-aid"> </i> 
-            <h3>Tailwind Footer Refactor</h3>
+            <i class="fas fa-heart heart-icon-2"></i> 
+            <h3> 2025 </h3>   
+            <h3>Tailwind Footer</h3>
              <div> <b> Brief:</b> I focused on Tailwinds Utility-first approach while creating a modern and responsive footer. </div><br>
              <div> <b>Technologies:</b> Tailwind CSS </div> <br>
              <div>  <b>Responsibilities:</b> used Tailwind CSS classes to style and structure the footer and ensured reposiveness by using grid layouts.
@@ -156,152 +168,176 @@
                    
                  <div class="edu-1">
 
-                <div class="edu-2"></div>
-
+                   
+                 <div class="inline-block-1">
                 <div>Feb 2025 - Recent </div>
-                 <div class="edu-h3"> Codespace Academy </div>
+                 <h4> Codespace Academy </h4>
                  <div> Software Developement </div>
                  <div> PartTime </div>
-
-                 </div>
-
+                </div>
+               
                  
-                 <ul class="studies">
+
+                  <div class="inline-block-2">
+                 <ul>
                     <li> At the moment my main focus is HTML , CSS and Tailwind CSS.</li>
                     <li> I'll be moving on to Java Script soon and look forward to learning about it. </li>
                     <li> Once Javascript is complete I'll Move on to Dynamic Javascript. </li>
                  </ul>
-
-                 </div>
+                </div>
+                 
     
                 </div>
             
-                <div class="edu-2"> 
+                     <div class="edu-2"> 
                      
-                    
-                    <div> Feb 2021 - Dec 2022 </div>
-                     <div class="edu-h3">College Of Cape Town </div>
+                     
+                    <div class="inline-block-1"> 
+                    <div> <b> Feb 2021 - Dec 2022 </b> </div>
+                     <h4>College Of Cape Town </h4>
                      <div> Beauty Therapist </div>
                      <div> Full Time </div>
-
-                    
-
-                      
-
-                     <ul class="studies" >
-                        <li> This is where I learned about my creative aspect. It taught me valuable lessons about the human body and mind. </li>
-                        <li> It taught me patience and attention to detail as I always catered to diffrent peoples needs. </li>
-                        <li> It was a great way to build relationships, I became a good listener and when it came to the end result whether it be nails or a massage my efforts were specifically tailored for them.  </li>
-                     </ul>
-
-                    
-        
                     </div>
-                   
-                    <div class="edu-3"> 
-
-
-                        
-
-                        <div> Jan 2014 - Dec 2018 </div>
-                        <div class="edu-h3"> J.G Meiring High School </div>
-                         <div> General Subjects </div>
-                         <div> Full Time </div>
-
                     
-            
 
-                         
-
-                         <ul class="studies" >
-                            <li> </li>
-                            <li> </li>
-                            <li> </li>
-                         </ul>
-
-                        
-            
+                    <div class="inline-block-2">
+                     <ul>
+                        <li> This is where I learned about my creative aspect  </li>
+                        <li> It taught me patience and attention to detail </li>
+                        <li> It was a great way to build relationships </li>
+                     </ul>
+                    </div>
                         </div>
-                       
 
-                    <h2 class="tools-heading"> Tools</h2>
+                        <div class="edu-3"> 
+
+                        <div class="inline-block-1"> 
+                            <div> <b> Jan 2014 - Dec 2018 </b> </div>
+                             <h4>J.G Meiring High School </h4>
+                             <div> Student</div>
+                             <div> Full Time </div>
+                            </div>
+                            
+        
+                            <div class="inline-block-2">
+                             <ul>
+                                <li> This is where I learned about my creative aspect  </li>
+                                <li> It taught me patience and attention to detail </li>
+                                <li> It was a great way to build relationships </li>
+                             </ul>
+                            </div>
+                                </div>
+                     
+                </div>
+                        </div>
+                        
+                     
+        
+                    
 
                     <div class="tools-container"> 
-                         
-                        <h4 class="language-tool"> Languages </h4>
+                        
+                        <h2 class="tools-heading"> Tools</h2>  
+
+                        
+
+                        <h4 class="language-tool"> language </h4>
 
                         <div class="image-container-1"> 
+                            
+                        <img  class="html"  src="Images/html-logo.jpg" alt="HTML"> 
+                        <img  class="css" src="Images/css-logo.jpg" alt="CSS">
+                        <img  class="tailwind" src="Images/tailwind-logo.jpg" alt="Tailwind">
                         
-                        <img  class="HTML"  src="Images/html-logo.jpg" alt="HTML">
-                        <img  class="CSS" src="Images/css-logo.jpg" alt="CSS">
-                        <img  class="Tailwind" src="Images/tailwind-logo.jpg" alt="Tailwind">
-
                         </div>
 
 
+                        
                         <h4 class="Design"> Design </h4>
 
                         <div class="image-container-2"> 
                             
 
-                            <img class="figma" src="Images/logoFigma.png" alt="HTML">
-                            <img class="google" src="Images/icons8-google 1.png" alt="CSS">
+                            <img class="figma" src="Images/logoFigma.png" alt="Figma">
+                            <img class="google" src="Images/icons8-google 1.png" alt="Google">
                            
     
                             </div>
 
 
-                            <h4 class="tools">Tools </h4>
+                               <h4 class="tools">Tools </h4>
 
-                            <div class="image-container-3">  
+                               <div class="image-container-3">  
+                                
                                 <img  class="github" src="Images/icons8-github 1.png" alt="CSS">
                                 <img  class="git" src="Images/icons8-git 1 (1).png" alt="CSS">
 
                             </div>
+                          
+                        
             
                         </div>
+
+                    
+                    
                        </section>
 
 
-                         <section>
+                         <section class="section-5">
 
-                            <h2> Experience </h2>
 
                         <div class="work-experience">
 
-                        <div class="job-1"> 
-                        <div> Oct 2025 -Recent  </div>
-                        <div> Sales Administrator </div>
-                        <div> Oxbow | Full-Time  </div>
+                            <h2> Experience </h2>
 
+                        <div class="job-1"> 
+
+                        <div class="info-ed"> 
+                        <div> <b> Oct 2024 - Recent </b>  </div>
+                        <h4> Sales Administrator </h4>
+                        <div> Oxbow | Full-Time  </div>
+                        </div>
+                        
+
+                          <div class="info-ed-2">
                         <ul>
                             <li> Creating and Editing booklets with Adobe </li>
                             <li> Preparing contracts for clients </li>
                             <li> Doing Weekly and monthly stats for my team </li>
                          </ul>
+                        </div>
+                        
 
                         </div>
 
                         <div class="job-2"> 
                             
-                            <div> May 2023 - Sept 2024 </div>
-                            <div> Senior Administrator </div>
+                            <div class="info-ed">
+                            <div> <b>May 2023 - Sept 2024 </b> </div>
+                            <h4> Senior Administrator </h4>
                             <div> One Visa World | Full-Time </div>
+                            </div>
     
+                            <div class="info-ed-2">
                             <ul>
                                 <li> Monthly Reporting </li>
                                 <li> Taking clients finger prints and assisting them with police clearances </li>
                                 <li> Creating quotes and invoices on Quickbooks </li>
                              </ul>
+                            </div>
     
                             </div>
 
                             <div class="job-3"> 
                             
-                                <div> Oct 2022 - Feb 2023 </div>
-                                <div> Beauty Therapist </div>
+                                <div class="info-ed">
+                                <div> <b> Oct 2022 - Feb 2023 </b> </div>
+                                <h4> Beauty Therapist </h4>
                                 <div> Sorbet | Full-time </div>
+                               </div>
+                        
         
+                               <div class="info-ed-2">
                                 <ul>
                                     <li> I assisted clients with diffrent body treatments such as massages, manicures and pedicures </li>
                                     <li> I retailed products to clients  </li>
@@ -309,16 +345,20 @@
                                  </ul>
         
                                 </div>
+
                             </section>
 
                             <footer>
-                             <div class="footer-heading"> Lets chat! Im ready to work on exciting projects.</div>
 
-                             <p>
+                             <div class="footer-container">
+                             <div class="footer-heading"> Let's chat! Im ready to work on exciting projects.</div>
+
+                             <div class="p-1">
                                 chelsijaimegorridon@gmail.com | 083 295 7278 |
                                 <a href="#in/chelsi-g54a09621aorridon-"> Linkedin </a> |
                                 <a href="#https://github.com/chelsigorridon">Github </a>
-                              </p>
+                             </div>
+                            </div> 
 
                             </footer>
                                 
