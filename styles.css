@@ -4,14 +4,12 @@
     box-sizing: border-box;
     }
 
-
-
-
-
-body{
-    background-image:  url(Images/image\ 1.png);
-    
-}
+    body{
+        background-image:  url(Images/image\ 1.png);
+        width: 1440px;
+        height: 3473px;
+        
+    }
 
 
 .container {
@@ -25,8 +23,7 @@ body{
       display: flex;
       width: auto ;
       height: auto;
-      margin-top: 30px;
-      margin-left: 100px;
+      margin-left: 70px;
       
       
     }
@@ -37,7 +34,7 @@ body{
         height: 300.1px;
         object-fit: cover;
         border-radius: 29.04px;
-        margin-right: 30px;
+        margin-right: 9px;
         margin-left: 30px;
     }
 
@@ -207,7 +204,7 @@ h2{
     
 }
 
-
+  
 
 .skills-container {
     width: 706px; 
@@ -265,9 +262,24 @@ h2{
     grid-template-columns: 1fr 1fr 1fr 1fr ;
     gap: 50px;
     
-   
-
    }
+
+      .heart-icon {
+       color: #D76239;
+       display: inline-block;
+       float: right;
+       font-size: 26.62px;
+       
+      }
+
+      .heart-icon-2 {
+        color:#DB8566;
+        display: inline-block;
+        float: right;
+        font-size: 26.62px;
+      }
+  
+   
 
 .project-container {
     width: 1318.08px; 
@@ -307,6 +319,7 @@ h2{
     padding-left: 19px ;
     padding-right: 19px ;
     color: #FFFFFF;
+    vector-effect: ;
     
     
 }
@@ -401,8 +414,9 @@ h2{
 .inline-block-2 {
     display: flex;
     justify-content: space-between;
-    line-height: 150%;
+    line-height: 200%;
     row-gap: 16px;
+
 
     }
 
@@ -451,6 +465,7 @@ h2{
     padding-right: 14.52px ;
     gap: 24.2px;
     margin: auto;
+    margin-bottom: -30px;
 
     }
 
@@ -543,7 +558,7 @@ h2{
 
 
 
-footer{
+.footer-container {
     background-color: #d76239;
     color: #FFFF;
     border-radius: 29.04px;
@@ -551,6 +566,11 @@ footer{
     height: 158px;
     margin-top: 45px;
     gap: 4.85px;
+    margin-left: 100px;
+    font-family: sans-serif; 
+    text-align: left;
+    line-height: 100px;
+    padding:  10px 20px  10p
 
 }
 
@@ -559,14 +579,7 @@ footer{
     font-weight:400;
 }
 
-  footer {
-    margin-left: 100px;
-    font-family: sans-serif; 
-    text-align: left;
-    line-height: 100px;
-    padding:  10px 20px  10px;
-
-    }
+  
 
 .footer-heading {
     width: 1263.92px;
@@ -576,17 +589,23 @@ footer{
     color: #FFFFFF;
 }
 
+.p-1 , .footer-heading {
+    margin-left: 30px;
+}
+
 
 
   /*Media Query for Responsiveness on iphone*/ 
 
   @media screen and (max-width: 667px) {
-    .container {
-      width: 402px;
-      height: 2468px;
-      
-    }
   
+    .container {
+        width: 667px;
+        height: 2468px;
+        display: flex;
+        flex-direction: column;
+        
+    }
 
     img{
     
@@ -608,6 +627,7 @@ footer{
         border-radius: 12px;
         box-shadow: #dadada ;
         flex-wrap: wrap;
+        margin-bottom: -20px;
     }
 
        .to-be-replaced {
@@ -659,8 +679,16 @@ footer{
      .section-2 {
         display: flex;
         flex-direction: column;  
+        width: 318px;
+
      }
 
+
+     .section-5 {
+        margin-left: 79px;
+     }
+
+     
 
     .proficiency-container{
         width: 318px;
@@ -668,6 +696,7 @@ footer{
         padding: 12px;
         border-radius: 12px;
         gap: 16px;
+        margin-bottom: -30px;
     }
     
 
@@ -769,6 +798,7 @@ footer{
             font-family: sans-serif;
             padding: 7px;
             
+            
         }
 
 
@@ -802,6 +832,8 @@ footer{
         .section-4 {
             display: flex;
             flex-direction: column;
+            width: 318px;
+            margin-left: 79px;
         }
 
         .education-container {
@@ -838,14 +870,27 @@ footer{
         }
 
         .tools-container {
+            display: grid;
+            grid-template-columns: 2fr 2fr 2fr;
+            gap: 20px;
             width: 319px;
             height: 163px;
             border-radius: 12px;
-            background-color: #FFFFFF;
-            
-             
-  
+            background-color: #FFFFFF; 
+            margin-left: -1px;
         }
+
+
+        
+
+            .tools-heading {
+                
+                font-size: 12px;
+                line-height: 150%;
+                width: 32px;
+                height: 18px;
+                text-align: center;
+            }
 
             .language-tool, .Design , .tools {
                 background-color: #000000;
@@ -873,6 +918,7 @@ footer{
                     padding-right: 4px ;
                     padding-left: 4px ;
                     gap: 16px;
+                    margin-top: 30px;
     
                     
                 }  
@@ -888,11 +934,9 @@ footer{
                 }
 
                 .work-experience {
-                    display: grid;
-                    grid-template-rows: 1fr 1fr 1fr;
                     gap: 16px;
                     width: 319px;
-                    height: 487px;
+                    height: max-content;
                     border-radius: 12px;
                     background-color: #f0f0f0;
                     
@@ -967,6 +1011,10 @@ footer{
                         left: 0;
                         content: "chelsijaimegorridon@gmail.com | 083 295 7278 |";
                     }
+
+                    
+
+                    
                 
     
 
